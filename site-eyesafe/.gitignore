@@ -1,0 +1,129 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build directories
+dist
+build
+out
+dist-ssr
+
+# Local environment files
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.bkp
+*.~*
+
+# Compiled TypeScript files
+/dist/**
+/build/**
+/out/**
+
+# Test coverage reports
+coverage
+.nyc_output
+
+# Docker-related files
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.prod.yml
+Dockerfile.*
+
+# Miscellaneous
+*.map
+*.snap
+*.cache
+.pyc
+__pycache__/
+
+# macOS-specific files
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+com.apple.timemachine.donotpresent
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other build tools
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+
+# JetBrains IDE files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Visual Studio files
+*.suo
+*.user
+*.aps
+*.pch
+*.pdb
+*.idb
+*.plg
+
+# Webpack and Babel cache
+.webpack
+.babel-cache
+
+# Vite-specific files
+vite.config.ts.map
+vite.config.js.map
+
+# ESLint cache
+.eslintcache
+
+# Jest cache
+.jest/
+
+# Prettier cache
+.prettierrc.cache
+
+# Lockfiles for package managers
+yarn-error.log
+pnpm-debug.log
